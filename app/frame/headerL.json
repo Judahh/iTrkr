@@ -1,0 +1,58 @@
+[
+    {
+        "language": "en",
+        "profile": "Profile",
+        "historical": "Historical",
+        "hospitals": "Hospitals",
+        "docs": "Docs",
+        "medicines": "Medicines",
+        "symptoms": "Symptoms",
+        "diseases": "Diseases",
+        "vectors": "Vectors",
+        "pathogens": "Pathogens",
+        "contacts": "Contacts",
+        "addContact": "Add Contact"
+    },
+    {
+        "language": "en-US",
+        "profile": "Profile",
+        "historical": "Historical",
+        "hospitals": "Hospitals",
+        "docs": "Docs",
+        "medicines": "Medicines",
+        "symptoms": "Symptoms",
+        "diseases": "Diseases",
+        "vectors": "Vectors",
+        "pathogens": "Pathogens",
+        "contacts": "Contacts",
+        "addContact": "Add Contact"
+    },
+    {
+        "language": "pt",
+        "profile": "Perfil",
+        "historical": "Histórico",
+        "hospitals": "Hospitais",
+        "docs": "Médicos",
+        "medicines": "Medicamentos",
+        "symptoms": "Sintomas",
+        "diseases": "Doenças",
+        "vectors": "Vetores",
+        "pathogens": "Patógenos",
+        "contacts": "Contatos",
+        "addContact": "Adicionar Contato"
+    },
+    {
+        "language": "pt-BR",
+        "profile": "Perfil",
+        "historical": "Histórico",
+        "hospitals": "Hospitais",
+        "docs": "Médicos",
+        "medicines": "Medicamentos",
+        "symptoms": "Sintomas",
+        "diseases": "Doenças",
+        "vectors": "Vetores",
+        "pathogens": "Patógenos",
+        "contacts": "Contatos",
+        "addContact": "Adicionar Contato"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "language":"pt",
+        "title":"Tempo Real",
+        "back":"Home",
+        "record":"Gravação",
+        "streaming":"Transmissão",
+        "visualization":"Visualização",
+        "mode":"Modo",
+        "setup":"Setup"
+    },
+    {
+        "language":"pt-BR",
+        "title":"Tempo Real",
+        "back":"Home",
+        "record":"Gravação",
+        "streaming":"Transmissão",
+        "visualization":"Visualização",
+        "mode":"Modo",
+        "setup":"Setup"
+    },
+    {
+        "language":"en",
+        "title":"Real Time",
+        "back":"Home",
+        "record":"Gravação",
+        "streaming":"Transmissão",
+        "visualization":"Visualização",
+        "mode":"Mode",
+        "setup":"Setup"
+    },
+    {
+        "language":"en-US",
+        "title":"Real Time",
+        "back":"Home",
+        "record":"Record",
+        "streaming":"Streaming",
+        "visualization":"Visualization",
+        "mode":"Mode",
+        "setup":"Setup"
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "language":"en",
+        "title":"STREAME",
+        "error":"Missing Fields!"
+    },
+    {
+        "language":"en-US",
+        "title":"STREAME",
+        "error":"Missing Fields!"
+    },
+    {
+        "language":"pt-BR",
+        "title":"STREAME",
+        "error":"Campos Vazios!"
+    },
+    {
+        "language":"pt",
+        "title":"STREAME",
+        "error":"Campos Vazios!"
+    }
+]

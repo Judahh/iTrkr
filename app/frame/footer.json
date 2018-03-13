@@ -1,0 +1,23 @@
+{
+    "element": {
+        "style": {
+            "background-color": "rgba(255, 255, 255, 0.1)"
+        }
+    },
+    "arrayAppObject": [
+        {
+            "type": "ComponentMenuHorizontal",
+            "arrayAppObject": [
+                {
+                    "type": "ComponentLeftHolder"
+                },
+                {
+                    "type": "ComponentCenterHolder"
+                },
+                {
+                    "type": "ComponentRightHolder"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,508 @@
+{
+    "background": {
+        "image": {
+            "element": {
+                "style": {
+                    "background-color": "rgba(225, 223, 221,1)",
+                    "opacity": 1,
+                    "visibility": "visible",
+                    "position": "fixed",
+                    "filter": "brightness(100%) grayscale(0%) blur(0px)",
+                    "zIndex": -1000,
+                    "max-width": "inherit",
+                    "max-height": "inherit",
+                    "width": "100%",
+                    "height": "100%"
+                }
+            },
+            "img": {
+                "element": {
+                    "style": {
+                        "width": "100%",
+                        "opacity": 0.1,
+                        "height": "100%"
+                    },
+                    "src": "image/streame.svg"
+                }
+            }
+        }
+    },
+    "code": "GPSData",
+    "runFunction": "run(this)",
+    "runOnBuild": true,
+    "appObject": {},
+    "arrayDivisor": [
+        {
+            "arrayDivisor": [
+                {
+                    "element": {
+                        "style": {
+                            "height": "10px",
+                            "width": "100%",
+                            "display": "block",
+                            "opacity": 1,
+                            "color": "transparent",
+                            "padding": [
+                                5
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "arrayDivisor": [
+                {
+                    "element": {
+                        "style": {
+                            "opacity": 1,
+                            "width": "100%",
+                            "display": "block",
+                            "color": "transparent",
+                            "margin-top": "20px",
+                            "margin-left": "15px",
+                            "padding": [
+                                5
+                            ]
+                        }
+                    },
+                    "arrayDivisor": [
+                        {
+                            "arrayItem": [
+                                {
+                                    "element": {
+                                        "style": {
+                                            "display": "block",
+                                            "float": "left",
+                                            "width": "100%",
+                                            "text-align": "center",
+                                            "margin": "1px 0px"
+                                        }
+                                    },
+                                    "colorEffect": {
+                                        "element": {
+                                            "style": {
+                                                "color": "black"
+                                            }
+                                        },
+                                        "font": {
+                                            "element": {
+                                                "className": "ClassOpenSans",
+                                                "style": {
+                                                    "width": "100%",
+                                                    "font-size": "2vw",
+                                                    "text-align": "center",
+                                                    "padding": [
+                                                        0
+                                                    ]
+                                                }
+                                            },
+                                            "animationEffect": {
+                                                "element": {
+                                                    "style": {
+                                                        "display": "block"
+                                                    }
+                                                },
+                                                "animationSubEffect": {
+                                                    "arrayAnimationSubEffectHolder": [
+                                                        {
+                                                            "information": {
+                                                                "information": "title",
+                                                                "element": {
+                                                                    "style": {
+                                                                        "vertical-align": "sub"
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "arrayDivisor": [
+                {
+                    "element": {
+                        "style": {
+                            "opacity": 1,
+                            "width": "100%",
+                            "display": "contents",
+                            "float": "none",
+                            "color": "transparent",
+                            "padding": [
+                                5
+                            ]
+                        }
+                    },
+                    "arrayDivisor": [
+                        {
+                            "element": {
+                                "style": {
+                                    "display": "inline-block",
+                                    "width": "100%",
+                                    "float": "none",
+                                    "background-color": "rgba(255, 255, 255, 0.3)",
+                                    "margin": "1px 0px",
+                                    "padding": "2.5%",
+                                    "opacity": 1
+                                }
+                            },
+                            "arrayItem": [
+                                {
+                                    "arrayMenuHorizontal": [
+                                        {
+                                            "arrayLeftHolder": [
+                                                {
+                                                    "arrayDivisor": [
+                                                        {
+                                                            "arrayItem": [
+                                                                {
+                                                                    "runOnBuild": true,
+                                                                    "appObject": {},
+                                                                    "code": "GSM",
+                                                                    "element": {
+                                                                        "style": {
+                                                                            "vertical-align": "-webkit-baseline-middle",
+                                                                            "color": "black",
+                                                                            "opacity": "0.9",
+                                                                            "padding": "5px",
+                                                                            "font-size": "20px"
+                                                                        }
+                                                                    },
+                                                                    "colorEffect": {
+                                                                        "element": {
+                                                                            "className": "ClassNeon"
+                                                                        },
+                                                                        "colorEffect": "test",
+                                                                        "font": {
+                                                                            "element": {
+                                                                                "className": "ClassMaterialDesign"
+                                                                            },
+                                                                            "animationEffect": {
+                                                                                "element": {},
+                                                                                "animationSubEffect": {
+                                                                                    "arrayAnimationSubEffectHolder": [
+                                                                                        {
+                                                                                            "information": {
+                                                                                                "information": "",
+                                                                                                "runOnBuild": true,
+                                                                                                "appObject": {
+                                                                                                    "delay": 5000
+                                                                                                },
+                                                                                                "code": "GSM",
+                                                                                                "runFunction": "getStrength(this)",
+                                                                                                "opacity": 1
+                                                                                            }
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "arrayItem": [
+                                                                {
+                                                                    "runOnBuild": true,
+                                                                    "appObject": {},
+                                                                    "code": "Wifi",
+                                                                    "element": {
+                                                                        "style": {
+                                                                            "vertical-align": "-webkit-baseline-middle",
+                                                                            "color": "black",
+                                                                            "opacity": "0.9",
+                                                                            "padding": "5px",
+                                                                            "font-size": "20px"
+                                                                        }
+                                                                    },
+                                                                    "colorEffect": {
+                                                                        "element": {
+                                                                            "className": "ClassNeon"
+                                                                        },
+                                                                        "colorEffect": "test",
+                                                                        "font": {
+                                                                            "element": {
+                                                                                "className": "ClassMaterialDesign"
+                                                                            },
+                                                                            "animationEffect": {
+                                                                                "element": {},
+                                                                                "animationSubEffect": {
+                                                                                    "arrayAnimationSubEffectHolder": [
+                                                                                        {
+                                                                                            "information": {
+                                                                                                "information": "",
+                                                                                                "runOnBuild": true,
+                                                                                                "appObject": {
+                                                                                                    "delay": 5000
+                                                                                                },
+                                                                                                "code": "Wifi",
+                                                                                                "runFunction": "getStrength(this)",
+                                                                                                "opacity": 1
+                                                                                            }
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "arrayCenterHolder": [
+                                                {
+                                                    "arrayDivisor": [
+                                                        {
+                                                            "arrayItem": [
+                                                                {
+                                                                    "element": {
+                                                                        "style": {
+                                                                            "vertical-align": "-webkit-baseline-middle",
+                                                                            "color": "black",
+                                                                            "opacity": "0.9",
+                                                                            "display": "block",
+                                                                            "padding": "5px",
+                                                                            "textAlign": "center"
+                                                                        }
+                                                                    },
+                                                                    "colorEffect": {
+                                                                        "element": {
+                                                                            "style": {
+                                                                                "color": "black"
+                                                                            }
+                                                                        },
+                                                                        "font": {
+                                                                            "element": {
+                                                                                "className": "ClassFuturisticI",
+                                                                                "style": {
+                                                                                    "width": "100%",
+                                                                                    "font-size": "20px",
+                                                                                    "padding": [
+                                                                                        0
+                                                                                    ]
+                                                                                }
+                                                                            },
+                                                                            "animationEffect": {
+                                                                                "element": {
+                                                                                    "style": {
+                                                                                        "display": "block"
+                                                                                    }
+                                                                                },
+                                                                                "animationSubEffect": {
+                                                                                    "arrayAnimationSubEffectHolder": [
+                                                                                        {
+                                                                                            "information": {
+                                                                                                "information": "Time",
+                                                                                                "runOnBuild": true,
+                                                                                                "appObject": {},
+                                                                                                "code": "Time",
+                                                                                                "runFunction": "getTime()",
+                                                                                                "element": {}
+                                                                                            }
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ],
+                                            "arrayRightHolder": [
+                                                {
+                                                    "arrayDivisor": [
+                                                        {
+                                                            "arrayItem": [
+                                                                {
+                                                                    "runOnBuild": true,
+                                                                    "appObject": {},
+                                                                    "code": "GPS",
+                                                                    "element": {
+                                                                        "style": {
+                                                                            "vertical-align": "-webkit-baseline-middle",
+                                                                            "color": "black",
+                                                                            "opacity": "0.9",
+                                                                            "padding": "5px",
+                                                                            "font-size": "20px"
+                                                                        }
+                                                                    },
+                                                                    "colorEffect": {
+                                                                        "element": {
+                                                                            "className": "ClassNeon"
+                                                                        },
+                                                                        "colorEffect": "test",
+                                                                        "font": {
+                                                                            "element": {
+                                                                                "className": "ClassFontAwesome"
+                                                                            },
+                                                                            "animationEffect": {
+                                                                                "animationSubEffect": {
+                                                                                    "arrayAnimationSubEffectHolder": [
+                                                                                        {
+                                                                                            "information": {
+                                                                                                "information": "",
+                                                                                                "runOnBuild": true,
+                                                                                                "appObject": {},
+                                                                                                "code": "GPS",
+                                                                                                "runFunction": "run(this)",
+                                                                                                "element": {}
+                                                                                            }
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "arrayItem": [
+                                                                {
+                                                                    "element": {
+                                                                        "style": {
+                                                                            "vertical-align": "-webkit-baseline-middle",
+                                                                            "color": "black",
+                                                                            "opacity": "0.9",
+                                                                            "padding": "5px",
+                                                                            "font-size": "20px"
+                                                                        }
+                                                                    },
+                                                                    "colorEffect": {
+                                                                        "element": {
+                                                                            "className": "ClassNeon"
+                                                                        },
+                                                                        "colorEffect": "test",
+                                                                        "font": {
+                                                                            "element": {
+                                                                                "className": "ClassFontAwesome"
+                                                                            },
+                                                                            "animationEffect": {
+                                                                                "element": {},
+                                                                                "animationSubEffect": {
+                                                                                    "arrayAnimationSubEffectHolder": [
+                                                                                        {
+                                                                                            "information": {
+                                                                                                "information": "",
+                                                                                                "link": "link0",
+                                                                                                "opacity": 1
+                                                                                            }
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "element": {
+                                "style": {
+                                    "display": "inline-flex",
+                                    "width": "100%",
+                                    "float": "none",
+                                    "background-color": "rgba(255, 255, 255, 0.3)",
+                                    "margin": "1px 0px",
+                                    "padding": "2.5%",
+                                    "opacity": 0.9
+                                }
+                            },
+                            "arrayMap": [
+                                {
+                                    "element": {
+                                        "style": {
+                                            "height": "-webkit-fill-available",
+                                            "width": "100%"
+                                        }
+                                    },
+                                    "key": "AIzaSyAlF0f2wI_bKMBlg-Wm-Sg2M_PrkLsSY2U",
+                                    "options": {
+                                        "center": {
+                                            "lat": -3.7985,
+                                            "lng": -38.47
+                                        },
+                                        "zoom": 15
+                                    },
+                                    "arrayMarkerPosition": [
+                                        {
+                                            "lat": -3.7985,
+                                            "lng": -38.47
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "element": {
+                                "style": {
+                                    "display": "inline-block",
+                                    "width": "100%",
+                                    "float": "none",
+                                    "background-color": "rgba(255, 255, 255, 0.3)",
+                                    "margin": "1px 0px",
+                                    "padding": "2.5%",
+                                    "opacity": 1
+                                }
+                            },
+                            "arrayVideoHolder": [
+                                {
+                                    "element": {
+                                        "style": {
+                                            "color": "black",
+                                            "opacity": 1,
+                                            "font-size": "25px",
+                                            "padding-top": "unset",
+                                            "visibility": "visible"
+                                        }
+                                    },
+                                    "arrayVideo": [
+                                        {
+                                            "element": {
+                                                "controls": "false",
+                                                "autoplay": "true",
+                                                "name": "media",
+                                                "style": {
+                                                    "position": "inherit",
+                                                    "height": "100%",
+                                                    "width": "100%"
+                                                }
+                                            },
+                                            "code": "Stream",
+                                            "runFunction": "getStreamView(this)",
+                                            "runOnBuild": true,
+                                            "appObject": {}
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

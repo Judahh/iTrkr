@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+- '9'
+before_install:
+- npm install -g npm
+install:
+- npm install
+script: 
+  - tsc
+  - webpack
+deploy:
+  provider: heroku
+  api_key:
+    secure: OhLRSzAlLkTnUPQByG63b09eJgHVFKfRzmmhXGWXuYVJ5MAR32VZyKCqSeGu4XqACU2E8XRhFk+r/uPcPZhg5JDZqkSNYZRRMKdbCblg1dLXcXavq9+YZGU7GCNhJXxVz9qoQIKvnfvDugrxuC4lPLFmH+Zki00fhfpw1nunIhE3Z9uSDl3kY3MguSMkGUDxhDBqZEqysjh79JbO//wQvGni5s01ML5iXXbRRkE4M1zJjdye011eggbqQRxJGKL+HpYNgqUs9j8visrtTNeZlOh8nQpqXZgdQaPhltHhZQ07weaUSWyPZgZE4lHJgR4GssbedkVqNQ4iwUeXlyiqS3mLaDvzPjYllrv2jJTJkpos8GZidnMIvTa2pwpwTCSLUdAJcOAW5g7Uome20WcWtedRutyUmmT2l5XGfuBRB+FIL9kVx//eFrOtBkuv6G7SsZqGKJcwWUUyWiU9PuPbCqqtKi5ZgVhocEkU3GmisyOVHSNCwAa1Gbc3IpdNFcktFtH4yfG7mgNGDQrdJYQZeNzt8YPg/oGEQ9CYS2Ha6fOd2Rdpo9zGmbGewwKrrqvdp61yxxssV5qUxjhHqqVm0HJ0Mv3jQYeeL+APoZPpuHM52ESz3scDa8Ydr/S4q55AgKqJ3f30iXzpk5Sd6e2sNbFJZLeoy6totBBa4a0JCSs=
+  app: streame
+  on:
+    repo: judahh/streame

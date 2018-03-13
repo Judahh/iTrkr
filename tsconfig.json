@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "noImplicitAny": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "listEmittedFiles": true,
+    "allowJs": true,
+    // "outDir": "../release",
+    "typeRoots": [
+      "../node_modules/@types",
+      "node_modules/@types"
+    ],
+    "types": [
+    ]
+  },
+  "include": [ 
+    "*",
+    "api",
+    "app"
+  ]
+}

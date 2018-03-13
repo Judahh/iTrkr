@@ -1,0 +1,1 @@
+Use o https://www.draw.io para editar os flowcharts (fluxogramas) em svg.

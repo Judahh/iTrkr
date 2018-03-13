@@ -1,0 +1,237 @@
+/* @font-face {
+  font-family: 'FontAwesome';
+  src: url('fonts/fontawesome-webfont.eot?v=4.7.0');
+  src: url('fonts/fontawesome-webfont.eot?#iefix&v=4.7.0') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}  */
+
+/* @font-face {
+    font-family: "FontIcon";
+    src: url("fonts/BlueLionIcons.otf");
+    src: url("fonts/BlueLionIcons.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Companies";
+    src: url("fonts/Brands/Companies.otf");
+    src: url("fonts/Brands/Companies.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "FontIconSocialMedia";
+    src: url("fonts/Brands/Socialico.otf");
+    src: url("fonts/Brands/Socialico.ttf")  format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "FontIconSocialMedia2";
+    src: url("fonts/Brands/SocialicoPlus.otf");
+    src: url("fonts/Brands/SocialicoPlus.ttf")  format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "FontIconSocialMedia3";
+    src: url("fonts/Brands/MonoSocialIconsFont-1.10.otf");
+    src: url("fonts/Brands/MonoSocialIconsFont-1.10.woff") format('woff');
+    src: url("fonts/Brands/MonoSocialIconsFont-1.10.ttf")  format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "FontIconSocialMedia4";
+    src: url("fonts/Brands/pictonic.ttf");
+    src: url("fonts/Brands/pictonic.woff") format('woff');
+    src: url("fonts/Brands/pictonic.ttf")  format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} 
+
+@font-face {
+  font-family: "NewIcons0";
+  src: url("fonts/NewIcons/newIcons0.woff") format('woff');
+  src: url("fonts/NewIcons/newIcons.ttf")  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NewIcons1";
+  src: url("fonts/NewIcons/newIcons1.woff") format('woff');
+  src: url("fonts/NewIcons/newIcons.ttf")  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NewIcons";
+  src: url("fonts/NewIcons/newIcons.woff") format('woff');
+  src: url("fonts/NewIcons/newIcons.ttf")  format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MaterialWifi";
+  src: url("fonts/material-wifi.ttf") format('truetype');
+  src: url("fonts/material-wifi.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MaterialDesign";
+  src: url("fonts/Material-Design-Iconic-Font.ttf") format('truetype');
+  src: url("fonts/Material-Design-Iconic-Font.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+} */
+
+@font-face {
+    font-family: "FontFuturisticI";
+    src: url("fonts/Letters/FuturisticFontI.otf");
+    src: url("fonts/Letters/FuturisticFontI.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* @font-face {
+    font-family: "FontFuturisticII";
+    src: url("fonts/Letters/FuturisticFontII.otf");
+    src: url("fonts/Letters/FuturisticFontII.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
+}  */
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto');
+
+@import url('https://use.fontawesome.com/releases/v5.0.7/css/all.css');
+
+@font-face {
+  font-family: 'Facebook'; 
+  src: url('https://www.mediafont.com/storage/contents/11/font.eot');
+  src: local('Facebook Letter Faces'), url('https://www.mediafont.com/storage/contents/11/FACEBOLF.OTF');
+}
+
+font {
+    font-smooth:always;
+    font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+}
+
+.ClassCompanies{
+    font-family: "Companies";
+}
+
+.ClassIcon{
+    font-family: "FontIcon";
+}
+
+.ClassIconSocialMedia{
+    font-family: "FontIconSocialMedia";
+    margin-bottom: -20px;
+}
+
+.ClassIconSocialMedia2{
+    font-family: "FontIconSocialMedia2";
+    margin-bottom: -20px;
+}
+
+.ClassIconSocialMedia3{
+    font-family: "FontIconSocialMedia3";
+    margin-bottom: -20px;
+}
+
+.ClassIconSocialMedia4{
+    font-family: "FontIconSocialMedia4";
+    margin-bottom: -20px;
+}
+
+.ClassFuturisticI{
+    font-family: "FontFuturisticI";
+}
+
+.ClassFuturisticII{
+    font-family: "FontFuturisticII";
+}
+
+.ClassFuturisticIAndII{
+    font-family: "FontFuturisticI";
+}
+
+.ClassFuturisticIAndII:hover{
+    font-family: "FontFuturisticII";
+}
+
+.ClassOpenSans{
+    font-family: "Open Sans";
+}
+
+.ClassFacebook{
+    font-family: "Facebook";
+}
+
+.ClassRoboto{
+    font-family: "Roboto";
+}
+
+.ClassNewIcons0{
+    font-family: "NewIcons0";
+}
+
+.ClassNewIcons1{
+    font-family: "NewIcons1";
+}
+
+.ClassNewIcons{
+    font-family: "NewIcons";
+}
+
+.ClassMaterialWifi{
+    font-family: "MaterialWifi";
+}
+
+.ClassMaterialDesign{
+    font-family: "MaterialDesign";
+}
+
+.ClassFontAwesome{
+    font-family: "FontAwesome";
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus
+input:-webkit-autofill, 
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: black;
+  background-color: white;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+input[type="date"]:before {
+    color: lightgrey;
+    content: attr(placeholder) !important;
+    margin-right: 0.5em;
+}
+
+input[type="date"]:focus:before {
+    content: '' !important;
+}

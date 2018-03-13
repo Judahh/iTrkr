@@ -1,0 +1,46 @@
+[
+    {
+        "language":"pt",
+        "title":"Mapa",
+        "operationTime":"Tempo de Operação",
+        "back":"Home",
+        "record":"Gravação",
+        "streaming":"Transmissão",
+        "visualization":"Visualização",
+        "mode":"Modo",
+        "setup":"Setup"
+    },
+    {
+        "language":"pt-BR",
+        "title":"Mapa",
+        "operationTime":"Tempo de Operação",
+        "back":"Home",
+        "record":"Gravação",
+        "streaming":"Transmissão",
+        "visualization":"Visualização",
+        "mode":"Modo",
+        "setup":"Setup"
+    },
+    {
+        "language":"en",
+        "title":"Map",
+        "operationTime":"Operation Time",
+        "back":"Home",
+        "record":"Gravação",
+        "streaming":"Transmissão",
+        "visualization":"Visualização",
+        "mode":"Mode",
+        "setup":"Setup"
+    },
+    {
+        "language":"en-US",
+        "title":"Map",
+        "operationTime":"Operation Time",
+        "back":"Home",
+        "record":"Record",
+        "streaming":"Streaming",
+        "visualization":"Visualization",
+        "mode":"Mode",
+        "setup":"Setup"
+    }
+]

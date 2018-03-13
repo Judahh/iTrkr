@@ -1,0 +1,12 @@
+typings
+*.js
+*.map
+*.webm
+*.gz
+dist
+node_modules
+backApp
+backApi
+jspm_packages
+bower_components
+platforms

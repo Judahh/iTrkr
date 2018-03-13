@@ -1,0 +1,22 @@
+[
+    {
+        "language":"en",
+        "title":"STREAME",
+        "error":"Incorrect User or Password!"
+    },
+    {
+        "language":"en-US",
+        "title":"STREAME",
+        "error":"Incorrect User or Password!"
+    },
+    {
+        "language":"pt-BR",
+        "title":"STREAME",
+        "error":"Usuário ou Senha Incorreto!"
+    },
+    {
+        "language":"pt",
+        "title":"STREAME",
+        "error":"Usuário ou Senha Incorreto!"
+    }
+]

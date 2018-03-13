@@ -1,0 +1,562 @@
+{
+    "background": {
+        "image": {
+            "element": {
+                "style": {
+                    "background-color": "rgba(225, 223, 221,1)",
+                    "opacity": 1,
+                    "visibility": "visible",
+                    "position": "fixed",
+                    "filter": "brightness(100%) grayscale(0%) blur(0px)",
+                    "zIndex": -1000,
+                    "max-width": "inherit",
+                    "max-height": "inherit",
+                    "width": "100%",
+                    "height": "100%"
+                }
+            },
+            "img": {
+                "element": {
+                    "style": {
+                        "width": "100%",
+                        "opacity": 0.1,
+                        "height": "100%"
+                    },
+                    "src": "image/streame.svg"
+                }
+            }
+        }
+    },
+    "arrayDivisor": [
+        {
+            "arrayAuthorization": [
+                {
+                    "code": "UserManegement",
+                    "runFunction": "goToLogin()"
+                }
+            ],
+            "arrayDivisor": [
+                {
+                    "element": {
+                        "style": {
+                            "height": "10px",
+                            "width": "100%",
+                            "display": "block",
+                            "opacity": 1,
+                            "color": "transparent",
+                            "padding": [
+                                5
+                            ]
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "arrayDivisor": [
+                {
+                    "element": {
+                        "style": {
+                            "opacity": 1,
+                            "width": "100%",
+                            "display": "block",
+                            "color": "transparent",
+                            "margin-top": "20px",
+                            "margin-left": "15px",
+                            "padding": [
+                                5
+                            ]
+                        }
+                    },
+                    "arrayDivisor": [
+                        {
+                            "arrayItem": [
+                                {
+                                    "element": {
+                                        "style": {
+                                            "display": "block",
+                                            "float": "left",
+                                            "width": "100%",
+                                            "text-align": "center",
+                                            "margin": "1px 0px"
+                                        }
+                                    },
+                                    "colorEffect": {
+                                        "element": {
+                                            "style": {
+                                                "color": "black"
+                                            }
+                                        },
+                                        "font": {
+                                            "element": {
+                                                "className": "ClassOpenSans",
+                                                "style": {
+                                                    "width": "100%",
+                                                    "font-size": "2vw",
+                                                    "text-align": "center",
+                                                    "padding": [
+                                                        0
+                                                    ]
+                                                }
+                                            },
+                                            "animationEffect": {
+                                                "element": {
+                                                    "style": {
+                                                        "display": "block"
+                                                    }
+                                                },
+                                                "animationSubEffect": {
+                                                    "arrayAnimationSubEffectHolder": [
+                                                        {
+                                                            "information": {
+                                                                "information": "title",
+                                                                "element": {
+                                                                    "style": {
+                                                                        "vertical-align": "sub"
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "__comment": "Inicio 1 divisor",
+            "element": {
+                "style": {
+                    "display": "inline-block",
+                    "width": "90%",
+                    "height": "750px",
+                    "float": "none",
+                    "background-color": "rgba(255, 255, 255, 0.3)",
+                    "margin": "5px 5% 5px 5%",
+                    "padding": "0px 5px 0px 5px",
+                    "opacity": 1,
+                    "border-style": "groove"
+                }
+            },
+            "arrayDivisor": [
+                {
+                    "__comment": "Inicio 2 divisor",
+                    "element": {
+                        "style": {
+                            "display": "block",
+                            "width": "75%",
+                            "height": "100%",
+                            "float": "left",
+                            "background-color": "rgba(255, 255, 255, 0.3)",
+                            "margin": "2px 0px",
+                            "padding": "0px 5px 0px 5px",
+                            "border-style": "groove",
+                            "opacity": 0.9
+                        }
+                    },
+                    "arrayDivisor": [
+                        {
+                            "element": {
+                                "style": {
+                                    "opacity": 1,
+                                    "width": "100%",
+                                    "display": "contents",
+                                    "float": "none",
+                                    "color": "transparent",
+                                    "padding": [
+                                        5
+                                    ]
+                                }
+                            },
+                            "arrayDivisor": [
+                                {
+                                    "element": {
+                                        "style": {
+                                            "display": "inline-block",
+                                            "width": "50%",
+                                            "float": "none",
+                                            "background-color": "rgba(255, 255, 255, 0.3)",
+                                            "margin": "1px 0px",
+                                            "padding": "2.5%",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "arrayVideoHolder": [
+                                        {
+                                            "element": {
+                                                "style": {
+                                                    "color": "black",
+                                                    "opacity": 1,
+                                                    "font-size": "25px",
+                                                    "padding-top": "unset",
+                                                    "visibility": "visible"
+                                                }
+                                            },
+                                            "arrayVideo": [
+                                                {
+                                                    "element": {
+                                                        "controls": "false",
+                                                        "autoplay": "true",
+                                                        "name": "media",
+                                                        "style": {
+                                                            "position": "inherit",
+                                                            "height": "100%",
+                                                            "width": "100%"
+                                                        }
+                                                    },
+                                                    "code": "Stream",
+                                                    "runFunction": "getStreamView(this)",
+                                                    "runOnBuild": true,
+                                                    "appObject": {}
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "element": {
+                                "style": {
+                                    "opacity": 1,
+                                    "width": "100%",
+                                    "display": "contents",
+                                    "float": "none",
+                                    "color": "transparent",
+                                    "padding": [
+                                        5
+                                    ]
+                                }
+                            },
+                            "arrayDivisor": [
+                                {
+                                    "element": {
+                                        "style": {
+                                            "display": "inline-block",
+                                            "width": "50%",
+                                            "float": "none",
+                                            "background-color": "rgba(255, 255, 255, 0.3)",
+                                            "margin": "1px 0px",
+                                            "padding": "2.5%",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "arrayVideoHolder": [
+                                        {
+                                            "element": {
+                                                "style": {
+                                                    "color": "black",
+                                                    "opacity": 1,
+                                                    "font-size": "25px",
+                                                    "padding-top": "unset",
+                                                    "visibility": "visible"
+                                                }
+                                            },
+                                            "arrayVideo": [
+                                                {
+                                                    "element": {
+                                                        "controls": "false",
+                                                        "autoplay": "true",
+                                                        "name": "media",
+                                                        "style": {
+                                                            "position": "inherit",
+                                                            "height": "100%",
+                                                            "width": "100%"
+                                                        }
+                                                    },
+                                                    "code": "Stream",
+                                                    "runFunction": "getStreamView(this)",
+                                                    "runOnBuild": true,
+                                                    "appObject": {}
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "element": {
+                                "style": {
+                                    "opacity": 1,
+                                    "width": "100%",
+                                    "display": "contents",
+                                    "float": "none",
+                                    "color": "transparent",
+                                    "padding": [
+                                        5
+                                    ]
+                                }
+                            },
+                            "arrayDivisor": [
+                                {
+                                    "element": {
+                                        "style": {
+                                            "display": "inline-block",
+                                            "width": "50%",
+                                            "float": "none",
+                                            "background-color": "rgba(255, 255, 255, 0.3)",
+                                            "margin": "1px 0px",
+                                            "padding": "2.5%",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "arrayVideoHolder": [
+                                        {
+                                            "element": {
+                                                "style": {
+                                                    "color": "black",
+                                                    "opacity": 1,
+                                                    "font-size": "25px",
+                                                    "padding-top": "unset",
+                                                    "visibility": "visible"
+                                                }
+                                            },
+                                            "arrayVideo": [
+                                                {
+                                                    "element": {
+                                                        "controls": "false",
+                                                        "autoplay": "true",
+                                                        "name": "media",
+                                                        "style": {
+                                                            "position": "inherit",
+                                                            "height": "100%",
+                                                            "width": "100%"
+                                                        }
+                                                    },
+                                                    "code": "Stream",
+                                                    "runFunction": "getStreamView(this)",
+                                                    "runOnBuild": true,
+                                                    "appObject": {}
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "element": {
+                                "style": {
+                                    "opacity": 1,
+                                    "width": "100%",
+                                    "display": "contents",
+                                    "float": "none",
+                                    "color": "transparent",
+                                    "padding": [
+                                        5
+                                    ]
+                                }
+                            },
+                            "arrayDivisor": [
+                                {
+                                    "element": {
+                                        "style": {
+                                            "display": "inline-block",
+                                            "width": "50%",
+                                            "float": "none",
+                                            "background-color": "rgba(255, 255, 255, 0.3)",
+                                            "margin": "1px 0px",
+                                            "padding": "2.5%",
+                                            "opacity": 1
+                                        }
+                                    },
+                                    "arrayVideoHolder": [
+                                        {
+                                            "element": {
+                                                "style": {
+                                                    "color": "black",
+                                                    "opacity": 1,
+                                                    "font-size": "25px",
+                                                    "padding-top": "unset",
+                                                    "visibility": "visible"
+                                                }
+                                            },
+                                            "arrayVideo": [
+                                                {
+                                                    "element": {
+                                                        "controls": "false",
+                                                        "autoplay": "true",
+                                                        "name": "media",
+                                                        "style": {
+                                                            "position": "inherit",
+                                                            "height": "100%",
+                                                            "width": "100%"
+                                                        }
+                                                    },
+                                                    "code": "Stream",
+                                                    "runFunction": "getStreamView(this)",
+                                                    "runOnBuild": true,
+                                                    "appObject": {}
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "__comment__": "Fim 2 divisor"
+                },
+                {
+                    "__comment": "Inicio 2 divisor",
+                    "element": {
+                        "style": {
+                            "display": "block",
+                            "width": "25%",
+                            "height": "100%",
+                            "float": "left",
+                            "background-color": "rgba(255, 255, 255, 0.3)",
+                            "margin": "2px 0px",
+                            "padding": "2.0%",
+                            "border-style": "groove",
+                            "opacity": 0.9
+                        }
+                    },
+                    "arrayDivisor": [
+                        {
+                            "element": {
+                                "style": {
+                                    "display": "block",
+                                    "width": "100%",
+                                    "height": "40px",
+                                    "float": "left",
+                                    "background-color": "rgba(255, 255, 255, 0.3)",
+                                    "margin": "2px 0px",
+                                    "padding": "2.0%",
+                                    "border-style": "groove",
+                                    "opacity": 0.9
+                                }
+                            },
+                            "arrayDivisor": [
+                                {
+                                    "__comment": "Inicio 3 divisor",
+                                    "element": {
+                                        "style": {
+                                            "display": "block",
+                                            "height": "95%",
+                                            "float": "left"
+                                        }
+                                    },
+                                    "arrayItem": [
+                                        {
+                                            "element": {
+                                                "style": {
+                                                    "color": "black",
+                                                    "opacity": 0.8,
+                                                    "display": "block",
+                                                    "width": "30px",
+                                                    "float": "left"
+                                                }
+                                            },
+                                            "colorEffect": {
+                                                "element": {
+                                                    "style": {}
+                                                },
+                                                "font": {
+                                                    "element": {
+                                                        "className": "ClassFontAwesome",
+                                                        "style": {
+                                                            "width": "100%",
+                                                            "font-size": "25px",
+                                                            "padding": [
+                                                                0
+                                                            ]
+                                                        }
+                                                    },
+                                                    "animationEffect": {
+                                                        "element": {
+                                                            "style": {
+                                                                "display": "inline-block"
+                                                            }
+                                                        },
+                                                        "animationSubEffect": {
+                                                            "arrayAnimationSubEffectHolder": [
+                                                                {
+                                                                    "information": {
+                                                                        "information": "",
+                                                                        "element": {}
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    ],
+                                    "arrayDataInput": [
+                                        {
+                                            "element": {
+                                                "style": {
+                                                    "display": "inline-block",
+                                                    "color": "black",
+                                                    "opacity": 0.8,
+                                                    "font-size": "25px",
+                                                    "width": "75%",
+                                                    "padding-left": "5px"
+
+                                                }
+                                            },
+                                            "arrayComboBox": [
+                                                {
+                                                    "element": {
+                                                        "style": {
+                                                            "display": "block",
+                                                            "color": "black",
+                                                            "opacity": 0.8,
+                                                            "font-size": "16px",
+                                                            "width":"100%"
+                                                        }
+                                                    },
+                                                    "arrayOption": [
+                                                        {
+                                                            "information": "Dois"
+                                                        },
+                                                        {
+                                                            "information": "Quatro"
+                                                        },
+                                                        {
+                                                            "information": "Seis"
+                                                        },
+                                                        {
+                                                            "information": "Oito"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "element": {
+                                "style": {
+                                    "display": "block",
+                                    "width": "100%",
+                                    "height": "90%",
+                                    "float": "left",
+                                    "background-color": "rgba(255, 255, 255, 0.3)",
+                                    "margin": "2px 0px",
+                                    "padding": "2.0%",
+                                    "border-style": "groove",
+                                    "opacity": 0.9
+                                }
+                            },
+                            "arrayDivisor": []
+                        }
+                    ],
+                    "__comment__": "Fim 2 divisor"
+                }
+            ],
+            "__comment__": "Fim 1 divisor"
+        }
+    ]
+}

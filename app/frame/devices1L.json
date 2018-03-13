@@ -1,0 +1,44 @@
+[
+    {
+        "language":"pt",
+        "title":"Dispositivos",
+        "back":"Home",
+        "save":"Salvar",
+        "Hconnected":"Dispositivos Conectados",
+        "servers": "Servidores",
+        "users": "Usuários",
+        "operationName": "Nome da Operação:",
+        "dateBegin":"Data de Inicio:",
+        "dateEnd":"Data de Término:"
+    },
+    {
+        "language":"pt-BR",
+        "title":"Dispositivos",
+        "Hconnected":"Dispositivos Conectados",
+        "servers": "Servidores",
+        "users": "Usuários",
+        "operationName": "Nome da Operação:",
+        "dateBegin":"Data de Inicio:",
+        "dateEnd":"Data de Término:"
+    },
+    {
+        "language":"en",
+        "title":"Devices",
+        "Hconnected":"Devices Connected",
+        "servers": "Servers",
+        "users": "Users",
+        "operationName": "Name of Operation:",
+        "dateBegin":"Start Date:",
+        "dateEnd":"End Date:"
+    },
+    {
+        "language":"en-US",
+        "title":"Devices",
+        "Hconnected":"Devices Connected",
+        "servers": "Servers",
+        "users": "Users",
+        "operationName": "Name of Operation:",
+        "dateBegin":"Start Date:",
+        "dateEnd":"End Date:"
+    }
+]

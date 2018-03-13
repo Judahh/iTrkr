@@ -1,0 +1,30 @@
+[
+    {
+        "language":"pt-BR",
+        "title":"Configurações",
+        "back":"home",
+        "langTitle":"Idioma",
+        "languageName":"Português - Brasil"
+    },
+    {
+        "language":"pt",
+        "title":"Configurações",
+        "back":"home",
+        "langTitle":"Idioma",
+        "languageName":"Português"
+    },
+    {
+        "language":"en-US",
+        "title":"Configuration",
+        "back":"home",
+        "langTitle":"Language",
+        "languageName":"English - USA"
+    },
+    {
+        "language":"en",
+        "title":"Configuration",
+        "back":"home",
+        "langTitle":"Language",
+        "languageName":"English"
+    }
+]
