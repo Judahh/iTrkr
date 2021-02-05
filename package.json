@@ -57,7 +57,7 @@
     "backapijh": "0.2.53",
     "backappjh": "0.2.31",
     "basicsocket": "0.1.0",
-    "chai": "^4.1.2",
+    "chai": "^4.3.0",
     "compression-webpack-plugin": "1.1.10",
     "css-loader": "0.28.10",
     "d3": "4.13.0",
