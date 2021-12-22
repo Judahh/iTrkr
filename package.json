@@ -54,7 +54,7 @@
     "@types/mocha": "^2.2.48",
     "@types/webpack": "^3.8.8",
     "async": "2.6.0",
-    "backapijh": "0.2.53",
+    "backapijh": "0.5.3",
     "backappjh": "0.2.31",
     "basicsocket": "0.1.0",
     "chai": "^4.1.2",
