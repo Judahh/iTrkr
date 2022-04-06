@@ -68,7 +68,7 @@
     "flexiblepersistence": "1.0.17",
     "freeice": "^2.2.0",
     "mocha": "^5.0.1",
-    "moment": "2.20.1",
+    "moment": "2.29.2",
     "semaphore": "^1.1.0",
     "style-loader": "^0.20.2",
     "ts-loader": "^4.0.0",
